@@ -8,7 +8,7 @@
  
  The project structure is as follows:
  
- ```
+
  python_project/
  │── get_paper_list.py   # Main script for fetching papers
  │── main.py             # Entry point for running the script
@@ -17,7 +17,7 @@
  │── requirements.txt    # Dependencies list
  │── poetry.lock         # Poetry dependency lock file
  │── pyproject.toml      # Poetry configuration file
- ```
+
  
  ## Main Components
  
@@ -54,15 +54,15 @@
  
  Ensure you have **Python 3.7+** installed. Then, install the required dependencies using
  
- #### Using pip:
+ #### 🔹Using pip:
  
  pip install -r requirements.txt
  
- #### Using Poetry:
+ #### 🔹Using Poetry:
  
  poetry install
  
- #### Test the Script
+ #### 🔹Test the Script
  
  poetry run get-papers-list
  
