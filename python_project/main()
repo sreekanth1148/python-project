@@ -1,0 +1,5 @@
+def main():
+    print("Fetching papers list...")
+
+if __name__ == "__main__":
+    main()
