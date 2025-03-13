@@ -79,33 +79,34 @@
  
      poetry run get-papers-list -d
   
-  6️⃣ Common Issues & Fixes
+ 6️⃣ Common Issues & Fixes
  
- 🔹 Command 'poetry' not found
+     🔹 Command 'poetry' not found
  
  Restart your terminal and try running poetry --version.
  If it still doesn’t work, try pipx ensurepath, then restart your terminal.
  
- 🔹 Error: No file/folder found for package
+    🔹 Error: No file/folder found for package
  
  Check if pyproject.toml is correctly configured with the [tool.poetry] section.
  Ensure your project name is valid (no spaces).
  
- 🔹 Error: 'get-papers-list' not recognized
+    🔹 Error: 'get-papers-list' not recognized
  
- Check if pyproject.toml has the correct script entry under [tool.poetry.scripts]:
+   Check if pyproject.toml has the correct script entry under [tool.poetry.scripts]:
  
- [tool.poetry.scripts]
- get-papers-list = "python_project.get_papers:main"
+    [tool.poetry.scripts]
+    get-papers-list = "python_project.get_papers:main"
  
- 🔹  Run poetry install again.
+    🔹  Run poetry install again.
 
  7️⃣ Clone the Repository
+ 
 First, download the project to your local system:
 
-git clone https://github.com/sreekanth1148/python-project.git
+    git clone https://github.com/sreekanth1148/python-project.git
 
-cd python-project
+    cd python-project
  
  ## Tools and Libraries Used
  
@@ -142,11 +143,12 @@ cd python-project
  
 ###Evaluation Criteria 
 
-  this  project will be assessed based on Functional and Non-functional requirements
+     this  project will be assessed based on Functional and Non-functional requirements
 
 
 📌  Functional Requirements
-These criteria ensure that your project correctly implements the expected functionality.
+
+     These criteria ensure that your project correctly implements the expected functionality.
 
 🔹 Adherence to the Problem Statement
 
@@ -175,25 +177,25 @@ These criteria ensure that your project correctly implements the expected functi
     
 🔹 Readability
 
-   Write clean and maintainable code.
-   Use meaningful variable and function names.
-   Follow PEP 8 coding standards.
-   Include docstrings (""" """) for functions and modules.
+    Write clean and maintainable code.
+    Use meaningful variable and function names.
+    Follow PEP 8 coding standards.
+    Include docstrings (""" """) for functions and modules.
    
 🔹 Organization
 
-   Use a modular structure with separate files (utils.py, api_handler.py, etc.).
-   Follow proper separation of concerns (functions, classes, and modules).
-   Keep related logic grouped together for better maintainability.
+    Use a modular structure with separate files (utils.py, api_handler.py, etc.).
+    Follow proper separation of concerns (functions, classes, and modules).
+    Keep related logic grouped together for better maintainability.
    
 🔹 Robustness
 
-   Implement proper error handling using try-except blocks.
-   Handle API failures, timeouts, and invalid queries gracefully.
-   Ensure missing or incorrect data does not break the program.
+    Implement proper error handling using try-except blocks.
+    Handle API failures, timeouts, and invalid queries gracefully.
+    Ensure missing or incorrect data does not break the program.
 
  
  ## Contribution
  
- Contributions are welcome! Feel free to fork the repository, create issues, or submit pull requests.
+    Contributions are welcome! Feel free to fork the repository, create issues, or submit pull requests.
  
