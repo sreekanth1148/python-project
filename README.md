@@ -48,36 +48,36 @@
  
  #### 🔹Using pip:
  
- pip install -r requirements.txt
+   pip install -r requirements.txt
  
  #### 🔹Using Poetry:
  
- poetry install
+    poetry install
  
  #### 🔹Test the Script
  
- poetry run get-papers-list
+    poetry run get-papers-list
  
  
  ### 3️⃣ Run the Program
  
  The script has been **tested and executed** with the following query:
  
- python main.py "COVID-19 Vaccine"
+    python main.py "COVID-19 Vaccine"
  
  ### 4️⃣ Save Results to a CSV File
  
  To fetch papers and save the results in a CSV file, run:
  
  
- poetry run get-papers-list -f results.txt
+     poetry run get-papers-list -f results.txt
  
  
  ### 5️⃣ Enable Debug Mode
  
  For **detailed logging**, use the `--debug` flag:
  
-  poetry run get-papers-list -d
+     poetry run get-papers-list -d
   
   6️⃣ Common Issues & Fixes
  
