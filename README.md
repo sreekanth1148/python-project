@@ -33,7 +33,7 @@
  ## Installation and Execution
  
  
- 1️⃣ Install Poetry (If Not Already Installed)
+  ### 1️⃣ Install Poetry (If Not Already Installed)
  
  If you haven't installed Poetry, install it using the following command:
  
@@ -42,15 +42,7 @@
  (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
  
  
- ### 2️⃣ Clone the Repository
- 
- First, download the project to your local system:
- 
- git clone https://github.com/sreekanth1148/python-project.git
- cd python-project
- 
- 
- ### 3️⃣ Install Dependencies
+ ### 2️⃣ Install Dependencies
  
  Ensure you have **Python 3.7+** installed. Then, install the required dependencies using
  
@@ -67,13 +59,13 @@
  poetry run get-papers-list
  
  
- ### 4️⃣ Run the Program
+ ### 3️⃣ Run the Program
  
  The script has been **tested and executed** with the following query:
  
  python main.py "COVID-19 Vaccine"
  
- ### 5️⃣ Save Results to a CSV File
+ ### 4️⃣ Save Results to a CSV File
  
  To fetch papers and save the results in a CSV file, run:
  
@@ -81,13 +73,13 @@
  poetry run get-papers-list -f results.txt
  
  
- ### 6️⃣ Enable Debug Mode
+ ### 5️⃣ Enable Debug Mode
  
  For **detailed logging**, use the `--debug` flag:
  
   poetry run get-papers-list -d
   
-  7️⃣ Common Issues & Fixes
+  6️⃣ Common Issues & Fixes
  
  🔹 Command 'poetry' not found
  
@@ -107,6 +99,11 @@
  get-papers-list = "python_project.get_papers:main"
  
  🔹  Run poetry install again.
+
+ 7️⃣ Clone the Repository
+First, download the project to your local system:
+
+git clone https://github.com/sreekanth1148/python-project.git cd python-project
  
  ## Tools and Libraries Used
  
