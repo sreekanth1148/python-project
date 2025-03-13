@@ -70,7 +70,7 @@
  To fetch papers and save the results in a CSV file, run:
  
  
-     poetry run get-papers-list -f results.txt
+     poetry run get-papers-list -f results.csv
  
  
  ### 5️⃣ Enable Debug Mode
