@@ -103,7 +103,9 @@
  7️⃣ Clone the Repository
 First, download the project to your local system:
 
-git clone https://github.com/sreekanth1148/python-project.git cd python-project
+git clone https://github.com/sreekanth1148/python-project.git
+
+cd python-project
  
  ## Tools and Libraries Used
  
