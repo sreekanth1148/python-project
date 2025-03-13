@@ -141,40 +141,53 @@ cd python-project
    - 🔗 [Pandas Documentation](https://pandas.pydata.org/docs/)
  
 ###Evaluation Criteria 
-  this  project will be assessed based on Functional and Non-functional requirements
 
+  this  project will be assessed based on Functional and Non-functional requirements
 
 
 📌  Functional Requirements
 These criteria ensure that your project correctly implements the expected functionality.
 
 🔹 Adherence to the Problem Statement
+
      The project should solve the specified problem without missing any core functionality.
      It should work as described in the requirements or user stories.
+     
 🔹 Ability to Fetch and Filter Results Correctly
+
      The program should be able to retrieve data accurately from the required source (e.g., API, database, or file).
      Filtering should work correctly based on given parameters (e.g., keywords, date range, categories).
      If search or filtering criteria are not met, the program should return an empty result or an appropriate error message.
      Must handle edge cases (e.g., missing fields, incorrect inputs).
      
  📌 Non-functional Requirements
+ 
 🔹 Typed Python
+
     Use type hints (str, int, List, Dict, etc.) in function definitions and class attributes.
     Enforce static type checking with mypy.
+    
 🔹 Performance
+
     Optimize API calls to minimize response time.
     Use efficient data structures for faster processing.
     Avoid unnecessary computations and loops.
+    
 🔹 Readability
+
    Write clean and maintainable code.
    Use meaningful variable and function names.
    Follow PEP 8 coding standards.
    Include docstrings (""" """) for functions and modules.
+   
 🔹 Organization
+
    Use a modular structure with separate files (utils.py, api_handler.py, etc.).
    Follow proper separation of concerns (functions, classes, and modules).
    Keep related logic grouped together for better maintainability.
+   
 🔹 Robustness
+
    Implement proper error handling using try-except blocks.
    Handle API failures, timeouts, and invalid queries gracefully.
    Ensure missing or incorrect data does not break the program.
